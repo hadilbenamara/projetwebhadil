@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hadil</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <!-- SECTION: Splashscreen -->
+    <div class="splashscreen">
+        <div class="preloader">
+            <span class="preloader__text">Loading</span>
+        </div>
+    </div>
+    <!-- END SECTION: Splashscreen -->
+
+    <!-- SECTION: Intro -->
+    <header class="header">
+        <!-- SECTION: Navigation -->
+        <div id="top" class="navigation">
+            <div class="navigation__wrapper wrapper--large">
+                <a class="navigation__logo logo" href="#0">Logo</a>
+                <nav class="navigation__container">
+                    <ul class="navigation__list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Academic.html">Academic background</a></li>
+                        <li><a href="Experience.html">Experience</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                        <li><a href="registration.html">Sign up</a></li>
+                    </ul>
+                </nav>
+
+
+            </div>
+        </div>
+        <!-- END SECTION: Navigation -->
+    </header>
+    <!-- END SECTION: Intro -->
+    <main role="main">
+      
+        <!-- END SECTION: About -->
+
+
+        <!-- SECTION: Work -->
+        <section id="work" class="work">
+
+        </section>
+        <!-- END SECTION: Work -->
+        <h2 class="contact__heading title">Sign up</h2>
+
+        <form id="myForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required onkeyup="nameValidation(this.value)">
+        
+            <br>
+        
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+        
+            <br>
+        
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+        
+            <br>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        
+            <br>
+        
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+        
+            <br>
+        
+            <input type="submit" value="Submit">
+          </form>
+        
+          <div id="errorMessages" class="error"></div>
+
+        <!-- SECTION: Contact -->
+       
+        <!-- END SECTION: Contact -->
+    </main>
+    <!-- SECTION: Footer -->
+    <footer class="footer">
+        <div class="footer__wrapper wrapper--large">
+            <p class="footer__copyright no-margin">&copy; 2022 -Esprit</p>
+
+        </div>
+    </footer>
+    <!-- END SECTION: Footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../js/functions-min.js"></script>
+    <script type='text/javascript' src='../js/registration.js'></script>
+  
+
+</body>
+
+</html>
